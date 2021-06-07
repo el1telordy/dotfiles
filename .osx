@@ -61,7 +61,7 @@ fi
 # defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 # Set background to dark-grey color
-osascript -e 'tell application "Finder" to set desktop picture to POSIX file "~/mac-dev-playbook/files/applegray.jpeg"'
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "//Users/nikita/mac-dev-playbook/files/applegray.jpeg"'
 
 # Highlight colors
 defaults write NSGlobalDomain AppleAccentColor -int 5
