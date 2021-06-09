@@ -226,6 +226,18 @@ defaults write com.apple.dock wvous-tr-corner -int 4
 defaults write com.apple.dock wvous-tr-modifier -int 0
 
 ###############################################################################
+# Security & Updates                                                          #
+###############################################################################
+
+# Disable annoying system popup blocking execution of non-signed apps
+sudo spctl --master-disable
+
+# Disable all updates
+softwareupdate "macOS Catalina" --ignore
+softwareupdate "macOS Big Sur" --ignore
+softwareupdate "macOS Monterey" --ignore
+
+###############################################################################
 # Safari & WebKit                                                             #
 ###############################################################################
 
