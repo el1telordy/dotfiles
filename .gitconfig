@@ -1,0 +1,18 @@
+[user]
+  name = el1telordy
+  email = turbobich1@gmail.com
+[core]
+  editor = subl
+  excludesfile = ~/.gitignore
+  attributesfile = ~/.gitattributes
+  autocrlf = input
+[init]
+  defaultBranch = master
+[web]
+  browser = google-chrome
+[credential]
+  helper = osxkeychain
+[push]
+  default = simple
+[pull]
+	rebase = true
