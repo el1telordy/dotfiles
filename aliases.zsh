@@ -1,5 +1,6 @@
 # Shortcuts
 alias cls="clear"
+alias la="ls -a"
 
 # Git
 alias gst="git status"
