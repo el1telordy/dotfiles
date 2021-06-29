@@ -2,10 +2,6 @@
 
 # macOS configuration
 #
-# This configuration applies to the latest version of macOS (currently 11.3),
-# and sets up preferences and configurations for all the built-in services and
-# apps. Third-party app config should be done elsewhere.
-#
 # Options:
 #   --no-restart: Don't restart any apps or services after running the script.
 #
@@ -20,10 +16,10 @@
 # @see: http://secrets.blacktree.com/?showapp=com.apple.finder
 # @see: https://github.com/herrbischoff/awesome-macos-command-line
 #
-# @Original file author -- Jeff Geerling. You can fork his dotfiles here: https://github.com/geerlingguy/dotfiles
-# I decided not to fork his repo cause I need only one dotfile, which I also changed.
-
+#
 # Warn that some commands will not be run if the script is not run as root.
+#
+
 if [[ $EUID -ne 0 ]]; then
   RUN_AS_ROOT=false
   printf "Certain commands will not be run without sudo privileges. To run as root, run the same command prepended with 'sudo', for example: $ sudo $0\n\n" | fold -s -w 80
