@@ -10,3 +10,7 @@ eval "$(mcfly init zsh)"
 export HOMEBREW_NO_AUTO_UPDATES=1
 
 source /Users/nikita/.config/broot/launcher/bash/br
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
